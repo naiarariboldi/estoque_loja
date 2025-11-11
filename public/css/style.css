@@ -1,0 +1,189 @@
+/* ======== RESET ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* ======== CONTAINER GERAL ======== */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== CABEÇALHOS ======== */
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* ======== LINKS ======== */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* ======== TABELAS ======== */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table th, .table td {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background: #007bff;
+  color: #fff;
+  font-weight: 500;
+}
+
+.table tr:hover {
+  background: #f9fbff;
+}
+
+/* ======== FORMULÁRIOS ======== */
+form {
+  margin-top: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* ======== BOTÕES ======== */
+button, input[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+}
+
+/* Botão secundário */
+.btn-secondary {
+  background: #6c757d;
+}
+
+.btn-secondary:hover {
+  background: #545b62;
+}
+
+/* Botão de alerta */
+.btn-danger {
+  background: #dc3545;
+}
+
+.btn-danger:hover {
+  background: #b02a37;
+}
+
+/* ======== MENSAGENS ======== */
+.error {
+  background: #ffe6e6;
+  border: 1px solid #ffb3b3;
+  padding: 10px;
+  color: #d93025;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.success {
+  background: #e7f9ed;
+  border: 1px solid #7fd48b;
+  color: #2d8a42;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* ======== LOGIN PAGE ======== */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 25px;
+}
+
+.login-container input {
+  margin-bottom: 15px;
+}
+
+.login-container button {
+  width: 100%;
+  font-size: 16px;
+}
+
+/* ======== RODAPÉ ======== */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .table th, .table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
