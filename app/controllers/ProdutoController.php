@@ -27,3 +27,4 @@ class ProdutoController {
         return $this->model->find($id);
     }
 }
+
