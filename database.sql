@@ -1,4 +1,3 @@
--- Script para criar banco e tabelas
 CREATE DATABASE IF NOT EXISTS estoque_db DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE estoque_db;
 
@@ -20,12 +19,9 @@ CREATE TABLE IF NOT EXISTS produtos (
   criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
--- usuário de exemplo:
 INSERT INTO usuarios (nome, email, senha) VALUES
 ('Admin', 'admin@example.com', '$2y$10$Kq3Yj8oCqJw6QH1q0jvYbOeX1G1F0a9vQZq8kz1p4v1WmZf9g7PqG'); 
--- senha: "admin123" (hash gerado com password_hash)
 
--- produtos de exemplo
 INSERT INTO produtos (nome, categoria, quantidade, preco, descricao) VALUES
 ('Parafuso 6mm', 'Ferramentas', 150, 0.10, 'Parafuso para uso geral'),
 ('Cabo USB', 'Eletrônicos', 25, 5.50, 'Cabo USB A-B 1.5m'),
