@@ -18,3 +18,4 @@ Sistema de controle de estoque desenvolvido em PHP e MySQL, seguindo arquitetura
 ##  Login
 - Email: admin@example.com
 - Senha: admin123
+
